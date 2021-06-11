@@ -1,0 +1,21 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#chat {
+    height: 30vh;
+    width: 800px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+.message {
+    display: flex;
+    margin-left: 5px;
+    flex-direction: row;
+    gap:3px;
+}
+
+.commands{
+    color: red;
+    font-style: italic;
+}
